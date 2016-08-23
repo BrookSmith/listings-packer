@@ -1,0 +1,33 @@
+body{background-color:#fff;  }
+
+#boundingBox{
+  background-color:#e0e0e0;
+  width:800px;
+  height:800px;
+  position: absolute;
+}
+#boundingBox div{
+  position: absolute;
+  display:block;
+  overflow:hidden;
+  padding:0;
+  
+}
+#boundingBox div h4{
+  display:block;
+  position: absolute;
+  margin:0;
+  padding:5px;
+  background-color:rgba(0, 0, 0, 0.5);
+  bottom:0;
+  left:0;
+  font-family:Arial;
+  color:#fff;
+  font-size:12px;
+  width:100%;
+  box-sizing: border-box;
+  
+}
+#boundingBox div img{
+  display:block;
+}
